@@ -221,7 +221,7 @@ EOF
 # Main function
 main() {
   local taildrop_script="${HOME}/.config/dolphin_service_menus_creator/taildrop_script.sh"
-  local desktop_file_path="${HOME}/.local/share/kservices5/ServiceMenus/Taildrop.desktop"
+  local desktop_file_path="${HOME}/.local/share/kio/servicemenus/Taildrop.desktop"
 
   download_icon
   generate_taildrop_script "${taildrop_script}"
